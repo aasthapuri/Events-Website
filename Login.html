@@ -22,15 +22,15 @@
                 <img src="gp.png"></a>
             </div>
             <form id="Login" class="inputforms">
-                <input type="email" id="input-forms" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" placeholder="Enter email address" required/>
+                <input type="email" id="input-forms" pattern=".+@uwo.ca"  placeholder="Enter email address" required/>
                 <input type="password" id="input-formss"  placeholder="Enter password" required> 
-               <button type="button" ondblclick="signIn()" id="submit-btn">Login</button>
+               <button type="button" onclick="signIn()" id="submit-btn">Login</button>
         </form> 
         <form id="Register" class="inputforms">
             <div id="form">
                 <div id="container"></div>
                 
-            <input type="email" id="input-forms" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" placeholder="Enter email address" required/>
+            <input type="email" id="input-forms" pattern=".+@uwo.ca"  placeholder="Enter email address" required/>
             <input type="password" id="input-formss"  placeholder="Enter password" required/>
             
             <button type="button" onclick="signUp()" id="submit-btn">Register</button>
